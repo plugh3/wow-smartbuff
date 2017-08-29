@@ -207,6 +207,7 @@ function SMARTBUFF_InitItemList()
   SMARTBUFF_MiscItem9           = GetItemInfo(92738);  --"Safari Hat"
   SMARTBUFF_MiscItem10          = GetItemInfo(110424); --"Savage Safari Hat"
   SMARTBUFF_MiscItem11          = GetItemInfo(118922); --"Oralius' Whispering Crystal"
+  SMARTBUFF_MiscItem11_2       = GetItemInfo(147707); --"Repurposed Fel Focuser"
   SMARTBUFF_MiscItem12          = GetItemInfo(129192); --"Inquisitor's Menacing Eye"
   SMARTBUFF_MiscItem13          = GetItemInfo(129210); --"Fel Crystal Fragments"
   SMARTBUFF_MiscItem14          = GetItemInfo(128475); --"Empowered Augment Rune"
@@ -510,6 +511,7 @@ function SMARTBUFF_InitSpellIDs()
   SMARTBUFF_BMiscItem9      = GetSpellInfo(158486); --"Safari Hat"
   SMARTBUFF_BMiscItem10     = GetSpellInfo(158474); --"Savage Safari Hat"
   SMARTBUFF_BMiscItem11     = GetSpellInfo(176151); --"Whispers of Insanity"
+  SMARTBUFF_BMiscItem11_2     = GetSpellInfo(242551); --"Fel Focus"
   SMARTBUFF_BMiscItem12     = GetSpellInfo(193456); --"Gaze of the Legion"
   SMARTBUFF_BMiscItem13     = GetSpellInfo(193547); --"Fel Crystal Infusion"
   SMARTBUFF_BMiscItem14     = GetSpellInfo(190668); --"Empower"
@@ -922,6 +924,7 @@ function SMARTBUFF_InitSpellList()
     {SMARTBUFF_MiscItem13, 10, SMARTBUFF_CONST_SCROLL, nil, SMARTBUFF_BMiscItem13},
     {SMARTBUFF_MiscItem12, 60, SMARTBUFF_CONST_SCROLL, nil, SMARTBUFF_BMiscItem12},
     {SMARTBUFF_MiscItem11, 60, SMARTBUFF_CONST_SCROLL, nil, SMARTBUFF_BMiscItem11, S.LinkFlaskWoD},
+    {SMARTBUFF_MiscItem11_2, 60, SMARTBUFF_CONST_SCROLL, nil, SMARTBUFF_BMiscItem11_2, S.LinkFlaskWoD},
     {SMARTBUFF_MiscItem10, -1, SMARTBUFF_CONST_SCROLL, nil, SMARTBUFF_BMiscItem10, S.LinkSafariHat},
     {SMARTBUFF_MiscItem9, -1, SMARTBUFF_CONST_SCROLL, nil, SMARTBUFF_BMiscItem9, S.LinkSafariHat},
     {SMARTBUFF_MiscItem1, 60, SMARTBUFF_CONST_SCROLL, nil, SMARTBUFF_BMiscItem1},
